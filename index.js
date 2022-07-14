@@ -154,6 +154,21 @@ tallerSeleccionado4[4].addEventListener("click", ()=>{
 });
 
 //*----------------------------------------------------------------------------
+const tallerSeleccionado5 = document.querySelectorAll(".puntotaller5");
+//*----------------------------------------------------------------------------
+tallerSeleccionado5[0].addEventListener("click", ()=>{
+    window.open("Multimedia/Pseint/Taller5/Taller5_1/taller5_1.html");
+});
+
+tallerSeleccionado5[1].addEventListener("click", ()=>{
+    window.open("Multimedia/Pseint/Taller5/Taller5_2/taller5_2.html");
+});
+
+tallerSeleccionado5[2].addEventListener("click", ()=>{
+    window.open("Multimedia/Pseint/Taller5/Taller5_3/taller5_3.html");  
+});
+
+//*----------------------------------------------------------------------------
 const tallerSeleccionado5 = document.querySelector(".puntoTallerJava1");
 const tallerSeleccionado6 = document.querySelector(".puntoTallerJava2");
 const tallerSeleccionado7 = document.querySelector(".puntoTallerJava3");
